@@ -1,0 +1,27 @@
+{
+  "name": "redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1319.0",
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "ioredis": "^5.3.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.2",
+    "multer": "^1.4.5-lts.1",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
